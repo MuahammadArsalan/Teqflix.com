@@ -6,6 +6,7 @@ function Topbar() {
 
 <>
 
+<div id='main'>
 
 <div className="mainTopbar-cont flex justify-between flex-wrap">
 
@@ -34,7 +35,7 @@ function Topbar() {
 
 
 
-<div className="socialMediaIcons mr-5 mt-2  flex flex-wrap">
+<div className="socialMediaIcons mr-5 mt-2  flex flex-wrap ">
 
 <div className='fb text-center inline-flex alignItems-center justify-center mr-2'>
 
@@ -82,6 +83,7 @@ function Topbar() {
 </div>
 
 
+</div>
 </>
 )
 }

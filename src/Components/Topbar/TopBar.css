@@ -28,7 +28,7 @@ letter-spacing: 1px;
 .main-cont-only-phone-email{
 display: flex;
 justify-content: flex-start;
-margin-top: 5px;
+margin-top: 10px;
 margin-left: 35px;
 }
 
@@ -40,7 +40,7 @@ margin-left: 35px;
 /* SocialMediaIcons Started  */
 
 .fb{
-    background:#e6e6eb;
+    /* background:#e6e6eb; */
     width: 33px;
     height: 33px;
 border-radius: 100%;
@@ -69,3 +69,8 @@ color:#fe1d70;
 
 /* SocialMediaIcons ended  */
 
+#main{
+    background-color: #f0f0f6;
+    height: 8.5vh;
+    margin: auto;
+}
