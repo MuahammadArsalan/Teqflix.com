@@ -36,6 +36,21 @@ Lorem ipsum dolor sit, amet consectetur adipisicing elit. Omnis, quam tenetur ne
   <div className="carousel-item h-full">
     <img src="./Images/img6.jpg" />
   </div>
+  <div className="carousel-item h-full">
+    <img src="./Images/img7.jpg" />
+  </div>
+  <div className="carousel-item h-full">
+    <img src="./Images/img8.jpg" />
+  </div>
+  <div className="carousel-item h-full">
+    <img src="./Images/img9.jpg" />
+  </div>
+  <div className="carousel-item h-full">
+    <img src="./Images/img10.jpg" />
+  </div>
+  <div className="carousel-item h-full">
+    <img src="./Images/img11.jpg" />
+  </div>
 </div>
 
 </div>

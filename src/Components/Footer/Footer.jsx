@@ -139,11 +139,11 @@ function Footer() {
 
 
 <div className='flex flex-wrap justify-around w-[15vw] mt-[3rem]'>
-    <div className='icons-footer'><i class="fa-brands fa-facebook"></i></div>
-    <div className='icons-footer'><i class="fa-brands fa-instagram"></i></div>
-    <div className='icons-footer'><i class="fa-brands fa-linkedin"></i></div>
-    <div className='icons-footer'><i class="fa-brands fa-twitter"></i></div>
-    <div className='icons-footer'><i class="fa-brands fa-youtube"></i></div>
+    <div className='icons-footer' id='facebook'><i class="fa-brands fa-facebook"></i></div>
+    <div className='icons-footer' id='instagram'><i class="fa-brands fa-instagram"></i></div>
+    <div id='in' className='icons-footer'><i class="fa-brands fa-linkedin"></i></div>
+    <div id='twitter' className='icons-footer'><i class="fa-brands fa-twitter"></i></div>
+    <div id='youtube' className='icons-footer'><i class="fa-brands fa-youtube"></i></div>
 </div>
 
 
