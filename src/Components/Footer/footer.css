@@ -85,3 +85,54 @@ color: #FF0000;
 
 
 
+
+
+@media(max-width:630px){
+
+
+    #footer-cont{
+        height: max-content;
+    }
+}
+@media(max-width:799px){
+    #reserved-para{
+    font-size: 0.8rem;
+}
+
+#footer-logo{
+    width: 8rem;
+    margin-right:20px ;
+}
+#footernavigation-box{
+    width: 70vw;
+}
+.reserved-div{
+    
+    margin-top: 0px;
+
+   }
+   #div-ic-foot{
+margin-top: 0px;
+width: 30vw;
+   }
+
+}
+
+@media(max-width:900px){
+    #last-footer-box{
+    width: 100vw;
+     
+       margin-left: 0px;
+
+   }
+   #footer-logo{
+    width: 8rem;
+    margin-right:20px ;
+}
+#footernavigation-box{
+    width: 70vw;
+}
+#footer-cont{
+    height: max-content;
+}
+}

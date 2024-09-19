@@ -12,6 +12,7 @@
     font-size: 0.9rem;
     font-weight: 500;
     letter-spacing: 1px;
+cursor:pointer;
     
 }
 .email{
@@ -20,6 +21,7 @@
     font-family: "Poppins", sans-serif;
 font-weight: 500;
 letter-spacing: 1px;
+cursor:pointer;
 }
 
 .email-cont{
@@ -51,10 +53,13 @@ color: black;
 .fb-icon{
 font-size: 1.4rem;
 color:#0866ff;
+cursor:pointer;
+
 }
 .insta-icon{
 font-size: 1.4rem;
 color:#fe1d70;
+cursor: pointer;
 }
 
 
@@ -82,3 +87,12 @@ color:#fe1d70;
         background: linear-gradient(tobottom, #c8bab7, #f4f2f1, #eeeeee, #dbd9d7);
     }
 }
+
+
+
+
+@media(max-width:1024px){
+    #main{
+        height: max-content;
+    }
+    }

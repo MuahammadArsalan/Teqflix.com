@@ -9,12 +9,12 @@
 }
 
 
-/* #carousel{
+#carousel{
     display: flex;
     justify-content: space-around;
     background-color:#e1e1e7 ;
-    height: 73vh;
-} */
+    height: fit-content;
+}
 
 
 
@@ -55,4 +55,12 @@
 }
 #carousel-div{
     margin-top: 0.5rem;
+}
+
+
+
+@media(max-width:1024px){
+#carousel{
+    height: max-content;
+}
 }

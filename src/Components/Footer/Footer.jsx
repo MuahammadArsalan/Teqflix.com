@@ -13,7 +13,7 @@ function Footer() {
 
     {/* Logo And Para only Started */}
 
-<div className="flex justify-around ">
+<div className="flex justify-around flex-wrap">
 
 
 
@@ -41,7 +41,7 @@ function Footer() {
 
     {/* Detaile Section  Started */}
 
-<div className='flex justify-around w-[55vw] mt-[5rem]'>
+<div className='flex flex-wrap justify-around w-[55vw] mt-[5rem]'  id='footernavigation-box'>
 
 {/* Our Company Box */}
 
@@ -121,7 +121,7 @@ function Footer() {
 
 
 <div>
-    <img  className='mt-[6.5rem] mr-10 w-[14rem]'  src="./Images/Mobile App logo Footer.png" alt="" />
+    <img  className='mt-[6.5rem] mr-10 w-[14rem]'  src="./Images/Mobile App logo Footer.png" id='footer-logo' alt="" />
 </div>
 
 
@@ -134,11 +134,11 @@ function Footer() {
 {/* All right reserved Para Started */}
 
 
-<div className='flex flex-wrap justify-around w-[65vw] ml-8'>
+<div className='flex flex-wrap justify-around w-[65vw] ml-8' id='last-footer-box'>
 
 
 
-<div className='flex flex-wrap justify-around w-[15vw] mt-[3rem]'>
+<div className='flex flex-wrap justify-around w-[15vw] mt-[3rem]' id='div-ic-foot'> 
     <div className='icons-footer' id='facebook'><i class="fa-brands fa-facebook"></i></div>
     <div className='icons-footer' id='instagram'><i class="fa-brands fa-instagram"></i></div>
     <div id='in' className='icons-footer'><i class="fa-brands fa-linkedin"></i></div>

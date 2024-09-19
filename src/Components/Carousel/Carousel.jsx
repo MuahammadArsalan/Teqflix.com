@@ -5,7 +5,7 @@ function Carousel() {
 
 <>
 
-<div id='carousel'>
+<div id='carousel' className='flex flex-wrap'>
 
 <div className='lorem animate_animated animate__jello'>
 
