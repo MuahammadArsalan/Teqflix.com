@@ -1,9 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
-
-#footer-cont{
-
+/* background-color: #1b1b1b; */
+/* #footer-cont{
+    
     width: 100%;
     height: 90vh;
-    background-color: black;
+   
+    color: white;
+    font-family: "Poppins", sans-serif;
+} */
+
+
+#footer-cont {
+    width: 100%;
+    height: 90vh;
+    color: white;
+    font-family: "Poppins", sans-serif;
+    background: linear-gradient(black,#2d2c2c );
+}
+
+.our-company-txt{
+    font-weight: 500;
+    font-size: 1.5rem;
+}
+.footer-tabs{
+    font-family: "Poppins", sans-serif;
+    font-size: 1rem;
+    line-height: 2.3rem;
+    font-weight: 400;
+    color: #939193;
+}
+
+.h-span:hover{
+    border-bottom:2px solid #939193;
+}
+
+.contact-info-para{
+    color: #939193;
+    font-size:1rem;
+    line-height: 4rem;
+    
+}
+.contact-info-para:hover{
+    border-bottom:2px solid #939193;
     color: white;
 }
+
+#reserved-para{
+
+    color: #939193;
+ 
+}
+.reserved-div{
+    position: relative;
+    bottom: 0px;
+    text-align: center;
+    margin-top: 3rem;
+    letter-spacing: 0.1rem;
+    font-size: 0.9rem;
+    /* word-spacing: 0.2rem; */
+    
+}
+.icons-footer{
+    /* color: #939193; */
+color: white;
+}
+
