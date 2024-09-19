@@ -58,19 +58,27 @@ color:#fe1d70;
 }
 
 
-
-
-
-
-
-
-
-
-
-/* SocialMediaIcons ended  */
-
-#main{
+#main {
     background-color: #f0f0f6;
     height: 8.5vh;
     margin: auto;
+    transition: #f0f0f6 0.5s ease-in-out; 
+}
+
+#main {
+
+    background: linear-gradient(to bottom, #c8bab7, #eeebe9, #fffafa, #cfcac8);
+    
+}
+
+@keyframes uShape {
+    0% {
+        background: linear-gradient(to bottom, #c8bab7, #f4f2f1, #9e9a9a, #dbd9d7);
+    }
+    50% {
+        background: linear-gradient(to bottom, #c8bab7, #f4f2f1, #eeeeee, #dbd9d7);
+    }
+    100% {
+        background: linear-gradient(tobottom, #c8bab7, #f4f2f1, #eeeeee, #dbd9d7);
+    }
 }
