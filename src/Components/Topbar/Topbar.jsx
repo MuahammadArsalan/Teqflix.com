@@ -28,7 +28,7 @@ function Topbar() {
     fontSize:"0.8rem",
     fontWeight:"bold"
 }}></i></span>
-<span className='email'> example@gmail.com</span>
+<span className='email'> arsalan@gmail.com</span>
 </div>
 
 </div>
